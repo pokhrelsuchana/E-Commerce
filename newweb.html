@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce </title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="first-nav-bar">
+            <a href="#">
+                <p>Become a Seller!</p>
+            </a>
+            <a href="#">
+                <p>Login to Seller</p>
+            </a>
+            <a href="#">
+                <p>Helpline:98000000</p>
+            </a>
+        </div>
+        <hr>
+
+        <div class="nav-bar">
+            <div class="logo">
+                <img src="Image/Amazon-Logo.png" alt="amazon" height="100px" width="150px">
+            </div>
+
+            <div class="search">
+                <select name="name" id="vaue">
+                    <option value="name"> All</option>
+                    <input type="textarea" aria-rowcount="20px" placeholder="  Search your Needs....">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </select>
+            </div>
+
+            <div class="group">
+                <div class="home">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+
+                <div class="wishlist">
+                    <i class="fa-solid fa-heart" title="Wishlist"></i>
+                </div>
+
+                <div class="notification">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+            </div>
+
+            <div class="login">
+                <i class="fa-solid fa-user"></i>
+                <p>Login | Registration</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <select name="Name" id="id" multip>
+            <option class="name" value="Name">Categories (See All)</option>
+            <option value="Categories">Lookscart</option>
+            <option value="Categories">Boys Fashion</option>
+            <option value="Categories">Girls Fashion</option>
+            <option value="Categories">Womens Fashion</option>
+            <option value="Categories">Electronics</option>
+            <option value="Categories">Health and Beauty</option>
+        </select>
+
+        <nav class="nav">
+            <div class="wrapper">
+                <a href="#">
+                    <p>Home</p>
+                </a>
+                <a href="#">
+                    <p>Flash Sale</p>
+                </a>
+                <a href="#">
+                    <p>Blogs</p>
+                </a>
+                <a href="#">
+                    <p>All Brands</p>
+                </a>
+                <a href="#">
+                    <p>All Categories</p>
+                </a>
+            </div>
+        </nav>
+
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p> Rs.0.00 (0 items)</p>
+        </div>
+    </div>
+
+    <!--row and column-->
+    <div class="row">
+        <div class="column">
+            <table>
+                <tr>
+                    <th><a href="#"><i class="fa-solid fa-person-dress"></i>Women's Fashion<i
+                                class="fa-solid fa-arrow-right"></i></a></th>
+                </tr>
+
+                <tr>
+                    <th><a href="#"><i class="fa-solid fa-person"></i>Men's Fashion<i
+                                class="fa-solid fa-arrow-right"></i></a></th>
+                </tr>
+
+                <tr>
+                    <th><a href="#"><i class="fa-solid fa-mobile"></i>Electronics<i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th><a href="#"><i class="fa-solid fa-user-nurse"></i>Health and Beauty<i
+                                class="fa-solid fa-arrow-right"></i></a></th>
+                </tr>
+
+                <tr>
+                    <th><a href="#"><i class="fa-solid fa-clock"></i>Watches and Accessories<i
+                                class="fa-solid fa-arrow-right"></i></a></th>
+                </tr>
+
+                <tr>
+                    <th><a href="#"><i class="fa-solid fa-tv"></i>TV & Home Appliances<i
+                                class="fa-solid fa-arrow-right"></i></a></th>
+                </tr>
+
+                <tr>
+                    <th><a href="#"><i class="fa-solid fa-bag-shopping"></i>Groceries & Pets<i
+                                class="fa-solid fa-arrow-right"></i></a></th>
+                </tr>
+
+                <tr>
+                    <th><a href="#"><i class="fa-solid fa-baby"></i>Babies & Toys<i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th><a href="#"><i class="fa-solid fa-house-user"></i>Home & Lifestyle<i
+                                class="fa-solid fa-arrow-right"></i></a></th>
+                </tr>
+            </table>
+        </div>
+
+        <!--carosel-->
+        <ul class="gallery">
+            <li style="background: #f6bd60;"></li>
+            <li style="background: #f7ede2;"></li>
+            <li style="background: #f5cac3;"></li>
+            <li style="background: #84a59d;"></li>
+            <li style="background: #f28482;"></li>
+        </ul>
+    </div>
+
+    <!--second part of webpage-->
+    <div class="second-part">
+        <div class="sales">
+            <div class="flash">Featured Categories <i class="fa-solid fa-bolt"></i>
+                <!-- <p class="all">View All Products from our Special Categories</p> -->
+
+
+
+                <!--cards and categories-->
+                <div class="cards">
+                    <div class="box1 boxes">
+                        <img src="Image/s2.jpg" alt="shoes" width="170px" height="150px">
+                        <a href="">
+                            <div class="shoes">
+                                <p>Air Jordan Shoes</p>
+                            </div>
+
+                        </a>
+                        <div class="radio">
+                            <div class="semi-radio">
+                                <p>Unleash Your Confidence</p>
+                                <div class="color">Enjoy Discount Flat 10%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1 boxes">
+                        <img src="Image/c1.jpg" alt="shoes" height="150px" width="
+                170px">
+                        <a href="">
+                            <div class="shoes">
+                                <p>Branded Clothes</p>
+                            </div>
+                        </a>
+                        <div class="radio">
+                            <div class="semi-radio">
+                                <p>Unleash Your Confidence</p>
+                                <div class="color">Enjoy Discount Flat 10%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1 boxes">
+                        <img src="Image/a1.jpg" alt="shoes" height="150px" width="170px">
+                        <a href="">
+                            <div class="shoes">
+                                <p>Accessories</p>
+                            </div>
+                        </a>
+                        <div class="radio">
+                            <div class="semi-radio">
+                                <p>Unleash Your Confidence</p>
+                                <div class="color">Enjoy Discount Flat 10%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1 boxes">
+                        <img src="Image/e1.jpg" alt="shoes" height="150px" width="170px">
+                        <a href="">
+                            <div class="shoes">
+                                <p>Electronics</p>
+                            </div>
+                        </a>
+                        <div class="radio">
+                            <div class="semi-radio">
+                                <p>Unleash Your Confidence</p>
+                                <div class="color">Enjoy Discount Flat 10%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1 boxes">
+                        <img src="Image/make4.png" alt="shoes" height="150px" width="170px">
+                        <a href="">
+                            <div class="shoes">
+                                <p>Beauty & Makeup</p>
+                            </div>
+                        </a>
+                        <div class="radio">
+                            <div class="semi-radio">
+                                <p>Unleash Your Confidence</p>
+                                <div class="color">Enjoy Discount Flat 10%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box1 boxes">
+                        <img src="Image/sh2.png" alt="shoes" height="150px" width="170px">
+                        <a href="">
+                            <div class="shoes">
+                                <p>Shampoo & Oil</p>
+                            </div>
+                        </a>
+                        <div class="radio">
+                            <div class="semi-radio">
+                                <p>Unleash Your Confidence</p>
+                                <div class="color">Enjoy Discount Flat 10%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="second">
+            <div class="products">
+                <h3>Featured Products</h3>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="box1 boxes">
+                <img src="Image/1.jpg" alt="shoes" width="170px" height="150px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Straight Pants</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1000</strike> Rs.800</p>
+                </a>
+
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/7.jpg" alt="shoes" height="150px" width="
+            170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Plated Skirts</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1500</strike> Rs.1000</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/s5.jpg" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Jordan Metallic Shoes</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.2000</strike> Rs.1800</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/s6.jpg" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Sports Shoes</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.2500</strike> Rs.2100</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/9.jpg" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Sundown Hats</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1000</strike> Rs.700</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <!-- <div class="box1 boxes">
+                <img src="9.jpg" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Sundown Hats</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1000</strike> Rs.700</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div> -->
+        </div>
+
+        <div class="banners">
+            <div class="semi">
+                <div class="circle">
+                    <p>Under Rs.</p>
+                    <div class="semi-text">
+                        <p>1000</p>
+                    </div>
+                </div>
+
+                <div class="circle">
+                    <p>Under Rs.</p>
+                    <div class="semi-text">
+                        <p>500</p>
+                    </div>
+                </div>
+
+                <div class="circle">
+                    <p>Under Rs.</p>
+                    <div class="semi-text">
+                        <p>300</p>
+                    </div>
+                </div>
+
+                <div class="circle">
+                    <p>Under Rs.</p>
+                    <div class="semi-text">
+                        <p>200</p>
+                    </div>
+                </div>
+
+                <div class="circle">
+                    <p>Under Rs.</p>
+                    <div class="semi-text">
+                        <p>100</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!--for you page-->
+        <div class="second">
+            <div class="products">
+                <h3>Just For You</h3>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="box1 boxes">
+                <img src="Image/5.jpg" alt="shoes" width="170px" height="150px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Straight Pants</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1000</strike> Rs.800</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/3.jpg" alt="shoes" height="150px" width="
+        170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Plated Skirts</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1500</strike> Rs.1000</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/b1.png" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Jordan Metallic Shoes</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.2000</strike> Rs.1800</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/b2.jpg" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Sports Shoes</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.2500</strike> Rs.2100</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/b3.png" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Sundown Hats</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1000</strike> Rs.700</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <!-- <div class="box1 boxes">
+                <img src="b4.png" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Sundown Hats</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1000</strike> Rs.700</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div> -->
+        </div>
+
+
+
+        <!--for u page-->
+        <div class="cards">
+            <div class="box1 boxes">
+                <img src="Image/bt1.png" alt="shoes" width="170px" height="150px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Straight Pants</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1000</strike> Rs.800</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/bt2.jpg" alt="shoes" height="150px" width="
+        170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Plated Skirts</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1500</strike> Rs.1000</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/bt3.png" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Jordan Metallic Shoes</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.2000</strike> Rs.1800</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/bt4.png" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Sports Shoes</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.2500</strike> Rs.2100</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/6.jpg" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Sundown Hats</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1000</strike> Rs.700</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <!-- <div class="box1 boxes">
+                <img src="2.jpg" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Sundown Hats</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1000</strike> Rs.700</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div> -->
+        </div>
+
+
+        <div class="banner">
+            <div class="semi-banner">
+                <p class="pa">Save Upto 100% with our Coupons</p>
+                <p class="rag"> <i class="fa-solid fa-ticket"></i>Get huge discount in products or save money by using
+                    coupons while checkout.</p>
+                <button type="button">View All Coupons</button>
+            </div>
+        </div>
+
+
+
+        <!--for u page-->
+        <div class="cards">
+            <div class="box1 boxes">
+                <img src="Image/d1.png" alt="shoes" width="170px" height="150px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Straight Pants</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1000</strike> Rs.800</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/m2.png" alt="shoes" height="150px" width="
+        170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Plated Skirts</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1500</strike> Rs.1000</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/d3.jpg" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Jordan Metallic Shoes</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.2000</strike> Rs.1800</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/l1.png" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Sports Shoes</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.2500</strike> Rs.2100</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <div class="box1 boxes">
+                <img src="Image/make1.png" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Sundown Hats</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1000</strike> Rs.700</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div>
+
+            <!-- <div class="box1 boxes">
+                <img src="l3.png" alt="shoes" height="150px" width="170px">
+                <a href="">
+                    <p class="rate">5<i class="fa-solid fa-star"></i>/5 (10)</p>
+                    <p class="pants">Sundown Hats</p>
+                </a>
+                <a href="">
+                    <p class="rupees"><strike>Rs.1000</strike> Rs.700</p>
+                </a>
+                <button type="button" class="btn">Add to Cart</button>
+            </div> -->
+        </div>
+
+        <footer>
+            <div class="foot">
+                <div class="amazon">
+                    <img src="Image/amazon_logo.png" alt="amazon" height="100px" width="150px">
+                </div>
+
+                <p>Subscribe to our newsletter for regular updates about Offers, Coupons & many more.</p>
+                <input type="email" name="email" id="email" placeholder="   Your Email Address">
+                <button class="button">Subscribe</button>
+                <hr>
+
+                <div class="all-last">
+                    <div class="last">
+                        <p>Privacy Policy</p>
+                        <p>Terms and Condition</p>
+                        <p>Contact</p>
+                        <p>Copyright &copy; Digi Agent</p>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--javascript-->
+        <script>
+            const slider = document.querySelector('.gallery');
+            let isDown = false;
+            let startX;
+            let scrollLeft;
+
+            slider.addEventListener('mousedown', e => {
+                isDown = true;
+                slider.classList.add('active');
+                startX = e.pageX - slider.offsetLeft;
+                scrollLeft = slider.scrollLeft;
+            });
+            slider.addEventListener('mouseleave', _ => {
+                isDown = false;
+                slider.classList.remove('active');
+            });
+            slider.addEventListener('mouseup', _ => {
+                isDown = false;
+                slider.classList.remove('active');
+            });
+            slider.addEventListener('mousemove', e => {
+                if (!isDown) return;
+                e.preventDefault();
+                const x = e.pageX - slider.offsetLeft;
+                const SCROLL_SPEED = 3;
+                const walk = (x - startX) * SCROLL_SPEED;
+                slider.scrollLeft = scrollLeft - walk;
+            });
+
+            // Auto-scroll functionality
+            let autoScrollInterval;
+
+            function startAutoScroll() {
+                autoScrollInterval = setInterval(() => {
+                    slider.scrollLeft += 1; // Adjust the scroll speed as needed
+                }, 10); // Adjust the interval as needed
+            }
+
+            function stopAutoScroll() {
+                clearInterval(autoScrollInterval);
+            }
+
+            slider.addEventListener('mouseenter', startAutoScroll);
+            slider.addEventListener('mouseleave', stopAutoScroll);
+        </script>
+
+</body>
+
+</html>
