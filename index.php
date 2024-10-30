@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Commerce </title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="includes/styles.css">
 
     <!--font awesome link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -16,18 +16,16 @@
     <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="first-nav-bar" >
-            <a href="admin_page/admin_login.php">
+        <div class="first-nav-bar">
+            <a href="main_page/register.php">
                 <p>Become a Seller!</p>
             </a>
-            <a href="admin_page/admin_login.php">
+            <a href="main_page/login.php">
                 <p>Login to Seller</p>
             </a>
             <a href="#">
@@ -65,7 +63,11 @@
 
             <div class="login">
                 <i class="fa-solid fa-user"></i>
-                <p>Login | Registration</p>
+                <a href="main_page/login.php">
+                    <p>Login |
+                </a> <a href="main_page/register.php">
+                    <p>Registration</p>
+                </a>
             </div>
         </div>
     </header>
@@ -290,7 +292,11 @@
                     <p class="rupees"><strike>Rs.1000</strike> Rs.800</p>
                 </a>
 
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -303,7 +309,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.1500</strike> Rs.1000</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -315,7 +325,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.2000</strike> Rs.1800</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -327,7 +341,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.2500</strike> Rs.2100</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -339,7 +357,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.1000</strike> Rs.700</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <!-- <div class="box1 boxes">
@@ -412,7 +434,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.1000</strike> Rs.800</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -425,7 +451,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.1500</strike> Rs.1000</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -437,7 +467,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.2000</strike> Rs.1800</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -449,7 +483,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.2500</strike> Rs.2100</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -461,7 +499,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.1000</strike> Rs.700</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <!-- <div class="box1 boxes">
@@ -490,7 +532,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.1000</strike> Rs.800</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -503,7 +549,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.1500</strike> Rs.1000</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -515,7 +565,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.2000</strike> Rs.1800</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -527,7 +581,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.2500</strike> Rs.2100</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -539,7 +597,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.1000</strike> Rs.700</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <!-- <div class="box1 boxes">
@@ -561,7 +623,6 @@
                 <p class="pa">Save Upto 100% with our Coupons</p>
                 <p class="rag"> <i class="fa-solid fa-ticket"></i>Get huge discount in products or save money by using
                     coupons while checkout.</p>
-                <button type="button">View All Coupons</button>
             </div>
         </div>
 
@@ -578,7 +639,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.1000</strike> Rs.800</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -591,7 +656,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.1500</strike> Rs.1000</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -603,7 +672,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.2000</strike> Rs.1800</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -615,7 +688,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.2500</strike> Rs.2100</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <div class="box1 boxes">
@@ -627,7 +704,11 @@
                 <a href="">
                     <p class="rupees"><strike>Rs.1000</strike> Rs.700</p>
                 </a>
-                <button type="button" class="btn">Add to Cart</button>
+                <form method="post" action="cart_process.php" class="cart-form">
+                    <input type="hidden" name="product_id" value="1"> <!-- Replace with actual product ID -->
+                    <input type="number" name="quantity" value="1" min="1" class="quantity-input">
+                    <button type="submit" name="add_to_cart" class="btn">Add to Cart</button>
+                </form>
             </div>
 
             <!-- <div class="box1 boxes">
