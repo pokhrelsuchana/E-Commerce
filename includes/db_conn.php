@@ -3,9 +3,9 @@
 $servername="localhost";
 $username="root";
 $password="";
-$db_name="users";
+$db_name="ecommerce";
 
-$conn=mysqli_connect("localhost","root","","users");
+$conn=mysqli_connect("localhost","root","","ecommerce");
 
 if($conn->connect_error){
     die("Connection failed");
